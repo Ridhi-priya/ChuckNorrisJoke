@@ -1,0 +1,33 @@
+@media screen and (min-device-width: 600px) and (max-device-width: 768px) {
+  .combinecontainer {
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+@media screen and (min-device-width: 495px) and (max-device-width: 599px) {
+  .combinecontainer {
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .btncontainer {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+  }
+}
+@media screen and (min-device-width: 280px) and (max-device-width: 494px) {
+  .combinecontainer {
+    width: 360px;
+    padding: 0;
+  }
+  .btncontainer {
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+  }
+  .selectbtn {
+    transition: border 0.5s, padding 0.5s;
+    margin: 5px;
+    padding: 8px;
+  }
+}

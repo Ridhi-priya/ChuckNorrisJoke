@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e3e6ec;
+  box-shadow: -3px -3px 5px #fff, 3px 3px 15px #000;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+.btncontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.combinecontainer {
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  width: 700px;
+
+  box-shadow: inset 18px 18px 30px 0px rgba(255, 255, 255, 0.5),
+    inset -18px -18px 30px 0px rgba(209, 217, 230, 0.5),
+    18px 18px 30px 0px rgb(209, 225, 230),
+    -18px -18px 30px 0px rgb(226, 235, 237);
+
+  padding: 20px;
+  margin: 10px;
+}
+
+h3 {
+  margin: 0;
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+
+.joke {
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  line-height: 30px;
+  margin: 0px auto;
+  max-width: 600px;
+}
+.combinebtn {
+  border: 0;
+  border-radius: 10px;
+  box-shadow: -3px -3px 5px #fff, 3px 3px 15px #000;
+  margin: 10px 0;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: border 0.5s, padding 0.5s;
+}
+.selectbtn {
+  transition: border 0.5s, padding 0.5s;
+  margin: 10px;
+}
+.btn {
+  background-color: aquamarine;
+}
+
+.btn:active {
+  filter: blur(0.6px);
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s cubic-bezier(0.25, 0.39, 0.39, 2.01);
+  transform: scale(0.99);
+}
+
+.selectbtn:focus {
+  background-color: aquamarine;
+}
+.btn:focus {
+  outline: 0;
+}

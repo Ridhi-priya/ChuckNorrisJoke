@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css">
+    <title>Chuck Norris Joke App</title>
+  </head>
+  <body>
+      <h2>Chuck Norris Joke</h2>
+      <div class="btncontainer combinecontainer">
+        <button
+          id="animal"
+          onClick="categories(animal)"
+          class="selectbtn combinebtn"
+        >
+          Animal
+        </button>
+        <button
+          id="career"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Career
+        </button>
+        <button
+          id="celebrity"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Celebrity
+        </button>
+        <button
+          id="dev"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Dev
+        </button>
+        <button
+          id="explicit"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Explicit
+        </button>
+        <button
+          id="fashion"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Fashion
+        </button>
+        <button
+          id="food"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Food
+        </button>
+        <button
+          id="history"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          History
+        </button>
+        <button
+          id="money"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Money
+        </button>
+        <button
+          id="movie"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Movie
+        </button>
+        <button
+          id="music"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Music
+        </button>
+        <button
+          id="political"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Political
+        </button>
+        <button
+          id="religion"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Religion
+        </button>
+        <button
+          id="science"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Science
+        </button>
+        <button
+          id="sport"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Sport
+        </button>
+        <button
+          id="travel"
+          onClick="categories(this)"
+          class="selectbtn combinebtn"
+        >
+          Travel
+        </button>
+      </div>
+      <h3>Select categories: <span id="categoryName"></sapn></h3>
+      <div class="jokecontainer combinecontainer">
+        <div id="joke" class="joke"></div>
+        <button id="jokeBtn" class="btn combinebtn">New Joke</button>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
